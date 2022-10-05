@@ -1,4 +1,4 @@
-import assert from 'assert';
+/*import assert from 'assert';
 
 const gpsIsAvailable = new Promise((resolve, reject) => {
   resolve(availableGpsCoordinates);
@@ -33,4 +33,4 @@ describe('time tracking', () => {
 
     });
   });
-});
+});*/
