@@ -14,7 +14,7 @@ class Clock {
 }
 
 const dateTime  = Date();
-const currentClock = new Clock(1, dateTime);
 
+console.log(dateTime);
 
 module.exports = Clock;
