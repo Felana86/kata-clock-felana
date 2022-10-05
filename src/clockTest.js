@@ -6,9 +6,10 @@ const Clock = require('./clockModel');
 })*/
 
 
-    it("should Clock when GPS is not available", trackClock => {
+    it("should show the clock when GPS is not available", done => {
         let clock = new Clock();
-        assert(clock, 1);
+        assert.equal(clock.Clock, 1);
+        done()
     });
 
     /*it("should show current clock when ", getCurrentTime => {
