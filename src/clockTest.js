@@ -12,9 +12,10 @@ const Clock = require('./clockModel');
         done()
     });
 
-    /*it("should show current clock when ", getCurrentTime => {
-        let currentClock = new Clock();
-        assert(currentClock, 4);
-    });*/
+    it("should show current clock when ", currentClock => {
+        let currentTime = new Clock();
+        assert.equal(currentTime.Clock, 4);
+        currentClock()
+    });
 
  

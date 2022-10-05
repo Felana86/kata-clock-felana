@@ -1,18 +1,11 @@
 class Clock {
-    constructor(_, dateTime) {
+    constructor(hour, dateTime) {
         this.Clock = 1;
-        //this.dateTime = dateTime;
+        this.dateTime = dateTime;
     }
-
-    
-    /*get currentClock() {
-        return this.currentDate();
+    getCurrentTime() {
+        
     }
-    currentDate() {
-        return this.Clock + this.dateTime;
-    }*/
-    
 }
-//const currentClock = new Clock;
 
 module.exports = Clock;
