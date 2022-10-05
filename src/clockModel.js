@@ -1,6 +1,6 @@
 class Clock {
     constructor() {
-        this.Clock = [];
+        this.Clock = 1;
         //this.dateTime = dateTime;
     }
 

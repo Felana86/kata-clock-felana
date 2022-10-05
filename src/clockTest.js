@@ -5,7 +5,7 @@ const Clock = require('./clockModel');
     assert.equal([0].indexOf(1), 0)
 })*/
 
-describe("integration test", function() {
+
     it("should Clock when GPS is not available", trackClock => {
         let clock = new Clock();
         assert(clock, 1);
@@ -15,7 +15,5 @@ describe("integration test", function() {
         let currentClock = new Clock();
         assert(currentClock, 4);
     });*/
-});
-
 
  
